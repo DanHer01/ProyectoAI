@@ -9,11 +9,12 @@ from os_info import get_os_info, format_os_info
 from ollama_api import OllamaAPI
 
 
-class OllamaAssistant(QtWidgets.QWidget):
+class OllamaAssistant(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Asistente de Comandos Ollama")
-        self.setMinimumSize(700, 700)
+        self.setMinimumSize(460, 900)
+        self.resize(460, 900)
         self.setWindowIcon(QtGui.QIcon())
         self.dataset = self.load_dataset()
         self.api = OllamaAPI()
@@ -33,7 +34,12 @@ class OllamaAssistant(QtWidgets.QWidget):
             return {}
 
     def init_ui(self):
-        layout = QtWidgets.QVBoxLayout(self)
+        scroll_area = QtWidgets.QScrollArea()
+        self.setCentralWidget(scroll_area)
+        central_widget = QtWidgets.QWidget()
+        scroll_area.setWidget(central_widget)
+        scroll_area.setWidgetResizable(True)
+        layout = QtWidgets.QVBoxLayout(central_widget)
         layout.setSpacing(12)
         layout.setContentsMargins(16, 16, 16, 16)
 
@@ -68,7 +74,8 @@ class OllamaAssistant(QtWidgets.QWidget):
         spec_layout = QtWidgets.QVBoxLayout(self.spec_group)
         self.spec_text = QtWidgets.QPlainTextEdit()
         self.spec_text.setReadOnly(True)
-        self.spec_text.setFixedHeight(120)
+        self.spec_text.setMinimumHeight(120)
+        self.spec_text.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
         spec_layout.addWidget(self.spec_text)
 
         self.refresh_button = QtWidgets.QPushButton("Actualizar desde PC")
@@ -94,6 +101,18 @@ class OllamaAssistant(QtWidgets.QWidget):
         preset_layout.addWidget(self.apply_preset_button)
         layout.addWidget(self.preset_group)
 
+        self.os_group = QtWidgets.QGroupBox("Sistema Operativo")
+        os_layout = QtWidgets.QHBoxLayout(self.os_group)
+        os_layout.addWidget(QtWidgets.QLabel("OS:"))
+        self.os_combo = QtWidgets.QComboBox()
+        self.os_combo.addItems(["Automático", "Windows", "Linux", "macOS"])
+        os_layout.addWidget(self.os_combo, 1)
+        self.apply_os_button = QtWidgets.QPushButton("Aplicar OS al prompt")
+        self.apply_os_button.setMaximumWidth(140)
+        self.apply_os_button.clicked.connect(self.apply_os)
+        os_layout.addWidget(self.apply_os_button)
+        layout.addWidget(self.os_group)
+
         self.model_group = QtWidgets.QGroupBox("Modelo Ollama")
         model_layout = QtWidgets.QHBoxLayout(self.model_group)
         model_layout.addWidget(QtWidgets.QLabel("Modelo:"))
@@ -110,7 +129,8 @@ class OllamaAssistant(QtWidgets.QWidget):
         input_layout = QtWidgets.QVBoxLayout(self.input_group)
         self.prompt_input = QtWidgets.QPlainTextEdit()
         self.prompt_input.setPlaceholderText("Ejemplo: Explícame cómo archivar múltiples archivos en un solo comando usando zip en Windows.")
-        self.prompt_input.setFixedHeight(100)
+        self.prompt_input.setMinimumHeight(100)
+        self.prompt_input.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
         input_layout.addWidget(self.prompt_input)
 
         self.options_group = QtWidgets.QGroupBox("Opciones de respuesta")
@@ -159,9 +179,10 @@ class OllamaAssistant(QtWidgets.QWidget):
 
         self.result_group = QtWidgets.QGroupBox("Respuesta de Ollama")
         result_layout = QtWidgets.QVBoxLayout(self.result_group)
-        self.result_text = QtWidgets.QPlainTextEdit()
+        self.result_text = QtWidgets.QTextEdit()
         self.result_text.setReadOnly(True)
-        self.result_text.setFixedHeight(160)
+        self.result_text.setMinimumHeight(200)
+        self.result_text.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         result_layout.addWidget(self.result_text)
         layout.addWidget(self.result_group)
 
@@ -228,7 +249,7 @@ class OllamaAssistant(QtWidgets.QWidget):
             top_p=top_p,
             stream=False
         )
-        self.result_text.setPlainText(f"Modelo: {model}\n\n{result}")
+        self.result_text.setMarkdown(f"**Modelo:** {model}\n\n{result}")
 
     def apply_preset(self):
         selected = self.preset_combo.currentText()
@@ -244,6 +265,23 @@ class OllamaAssistant(QtWidgets.QWidget):
             self.prompt_input.setPlainText("Corrige la gramática y el estilo del siguiente texto:")
         else:
             self.prompt_input.clear()
+
+    def apply_os(self):
+        selected_os = self.os_combo.currentText()
+        current_text = self.prompt_input.toPlainText().strip()
+        if selected_os != "Automático":
+            if current_text:
+                self.prompt_input.setPlainText(f"Para {selected_os}: {current_text}")
+            else:
+                self.prompt_input.setPlainText(f"Para {selected_os}: ")
+        else:
+            # Remove any "Para OS: " prefix
+            if current_text.startswith("Para "):
+                colon_index = current_text.find(": ")
+                if colon_index != -1:
+                    self.prompt_input.setPlainText(current_text[colon_index + 2:])
+            else:
+                self.prompt_input.setPlainText(current_text)
 
     def toggle_dark_mode(self):
         self.dark_mode = not self.dark_mode
@@ -289,7 +327,7 @@ class OllamaAssistant(QtWidgets.QWidget):
         QLabel {
             color: #33475b;
         }
-        QPlainTextEdit {
+        QPlainTextEdit, QTextEdit {
             border: 1px solid #d1d9e6;
             border-radius: 6px;
             background: #f9fbff;
@@ -354,7 +392,7 @@ class OllamaAssistant(QtWidgets.QWidget):
         QLabel {
             color: #e0e0e0;
         }
-        QPlainTextEdit {
+        QPlainTextEdit, QTextEdit {
             border: 1px solid #444;
             border-radius: 6px;
             background: #252535;
