@@ -1,0 +1,20 @@
+# Python cache folders
+__pycache__/
+*.py[cod]
+
+# VS Code settings
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db

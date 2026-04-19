@@ -76,7 +76,7 @@ Una interfaz gráfica ligera en `PyQt5` para usar `Ollama` desde el escritorio. 
 - El panel de resultados puede renderizar texto Markdown básico.
 - La app está en etapa Beta, por lo que pueden añadirse mejoras y nuevas funciones.
 
-## 🌟 Sugerencias para avanzar
+## 🌟 Proxima actualizacion... 
 
 - Añadir soporte para arrastrar y soltar prompts desde archivos.
 - Guardar historial de prompts y respuestas.
@@ -85,4 +85,4 @@ Una interfaz gráfica ligera en `PyQt5` para usar `Ollama` desde el escritorio. 
 
 ---
 
-Gracias por usar el Asistente de Comandos Ollama. ¡Disfruta creando prompts más rápido y con mejor contexto! 😊
+Gracias por usar el Asistente de Comandos Ollama. 
