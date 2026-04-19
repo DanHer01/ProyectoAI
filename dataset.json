@@ -1,0 +1,1170 @@
+{
+    "comandos de los sistemas operativos":{
+        "comandos similares en los sistemas operativos":[
+            {
+                "id":1,
+                "comando": "Copiar",
+                "Descripcion": "Permite copiar un elemento seleccionado al portapapeles para pegarlo en otro lugar.",
+                "windows": "Ctrl + C",
+                "Linux": "Ctrl + C",
+                "Mac": "Cmd + C"
+            },
+            {
+                "id":2,
+                "comando": "Cortar",
+                "Descripcion": "Permite cortar un elemento seleccionado al portapapeles para pegarlo en otro lugar, eliminándolo de su ubicación original.",
+                "windows": "Ctrl + X",
+                "Linux": "Ctrl + X",
+                "Mac": "Cmd + X"
+            },
+            {
+                "id":3,
+                "comando": "Pegar",
+                "Descripcion": "Permite pegar un elemento que ha sido copiado al portapapeles en una ubicación deseada.",
+                "windows": "Ctrl + V",
+                "Linux": "Ctrl + V",
+                "Mac": "Cmd + V"
+            },
+            {
+                "id":4,
+                "comando": "Deshacer",
+                "Descripcion": "Permite revertir la última acción realizada, deshaciendo cualquier cambio reciente.",
+                "windows": "Ctrl + Z",
+                "Linux": "Ctrl + Z",
+                "Mac": "Cmd + Z"
+            },
+            {
+                "id":5,
+                "comando":"Rehacer",
+                "Descripcion":"Permite volver a realizar una acción que se ha deshecho previamente",
+                "windows":"Ctrl + Y",
+                "Linux":"Ctrl + Shift + Z",
+                "Mac":"Cmd + Shift + Z"
+            },
+            {
+                "id":6,
+                "comando":"Seleccionar todo",
+                "Descripcion":"Permite seleccionar todos los elementos o el contenido de un documento o ventana.",
+                "windows":"Ctrl + A",
+                "Linux":"Ctrl + A",
+                "Mac":"Cmd + A"
+            },
+            {
+                "id":7,
+                "comando":"Buscar",
+                "Descripcion":"Permite buscar palabras o frases específicas dentro de un documento, página web u otro contenido.",
+                "windows":"Ctrl + F",   
+                "Linux":"Ctrl + F",
+                "Mac":"Cmd + F"
+
+            },
+            {
+                "id":8,
+                "comando":"Buscar siguiente",
+                "Descripcion":"Permite buscar la siguiente ocurrencia de la palabra o frase que se ha buscado previamente.",
+                "windows":"Ctrl + G",       
+                "Linux":"Ctrl + G",
+                "Mac":"Cmd + G"               
+
+            },
+            {
+                "id":9,
+                "comando":"Guardar",
+                "Descripcion":"Permite guardar el documento o archivo actual para preservar los cambios realizados.",
+                "windows":"Ctrl + S",       
+                "Linux":"Ctrl + S",
+                "Mac":"Cmd + S"
+            },
+            {
+                "id":10,
+                "comando":"Abrir",
+                "Descripcion":"Permite abrir un documento o archivo existente para su visualización o edición.",
+                "windows":"Ctrl + O",  
+                "Linux":"Ctrl + O",
+                "Mac":"Cmd + O"
+
+                },
+            {
+                "id":11,
+                "comando":"Imprimir",
+                "Descripcion":"Permite enviar el documento o archivo actual a una impresora para obtener una copia física.",
+                "windows":"Ctrl + P",       
+                "Linux":"Ctrl + P",
+                "Mac":"Cmd + P"
+            },
+            {
+                "id":12,
+                "comando":"Nueva pestaña",
+                "Descripcion":"Permite abrir una nueva pestaña en el navegador o aplicación actual.",
+                "windows":"Ctrl + T",       
+                "Linux":"Ctrl + T",
+                "Mac":"Cmd + T"
+            },
+            {
+                "id":13,
+                "comando":"Cerrar pestaña",
+                "Descripcion":"Permite cerrar la pestaña actual en el navegador o aplicación.",
+                "windows":"Ctrl + W",       
+                "Linux":"Ctrl + W",
+                "Mac":"Cmd + W"
+            },
+        {
+            "id":14,
+            "comando": "Salir de la aplicación",
+            "Descripcion": "Permite cerrar la aplicación o programa en uso.",
+            "windows": "Alt + F4",
+            "Linux": "Alt + F4",
+            "Mac": "Cmd + Q"
+        },
+        {
+            "id":15,
+            "comando": "Nueva carpeta",
+            "Descripcion": "Permite crear una nueva carpeta en el sistema de archivos.",
+            "windows": "Ctrl + Shift + N",
+            "Linux": "Ctrl + Shift + N",
+            "Mac": "Cmd + Shift + N"
+        },
+        {
+            "id":16,
+            "comando": "Renombrar",
+            "Descripcion": "Permite cambiar el nombre de un archivo o carpeta seleccionada.",
+            "windows": "F2",
+            "Linux": "F2",
+            "Mac": "Enter"
+        },
+        {
+            "id":17,
+            "comando": "Eliminar",
+            "Descripcion": "Permite eliminar un archivo o carpeta seleccionada, enviándola a la papelera de reciclaje o eliminándola permanentemente.",
+            "windows": "Delete",
+            "Linux": "Delete",
+            "Mac": "Cmd + Delete"
+        },
+        {
+            "id":18,
+            "comando": "Seleccionar todo",
+            "Descripcion": "Permite seleccionar todos los elementos o el contenido de un documento o ventana.",
+            "windows": "Ctrl + A",
+            "Linux": "Ctrl + A",
+            "Mac": "Cmd + A"
+        },
+        {
+            "id":19,
+            "comando": "Desplazarse entre ventanas",
+            "Descripcion": "Permite cambiar rápidamente entre las ventanas abiertas en el sistema operativo.",
+            "windows": "Alt + Tab",
+            "Linux": "Alt + Tab",
+            "Mac": "Cmd + Tab"
+        },
+        {
+            "id":20,
+            "comando": "Bloquear la pantalla",
+            "Descripcion": "Permite bloquear la pantalla del dispositivo para proteger la privacidad y seguridad.",
+            "windows": "Windows + L",
+            "Linux": "Ctrl + Alt + L",
+            "Mac": "Control + Shift + Power"
+        },
+        {
+            "id":21,
+            "comando": "Abrir el administrador de tareas",
+            "Descripcion": "Permite abrir el administrador de tareas para gestionar los procesos y aplicaciones en ejecución.",
+            "windows": "Ctrl + Shift + Esc",
+            "Linux": "Ctrl + Shift + Esc",
+            "Mac": "Cmd + Option + Esc"
+        },
+        {
+            "id":22,
+            "comando": "Información del sistema",
+            "Descripcion": "Permite acceder a la información del sistema, como el hardware, software y configuración.",
+            "windows": "Alt + Enter ",
+            "Linux": "Alt + Enter",
+            "Mac": "Comando + I "
+        },
+        {
+            "id":23,
+            "comando": "Captura de pantalla",
+            "Descripcion": "Permite tomar una captura de pantalla del área visible en el dispositivo.",
+            "windows": "PrtScn",
+            "Linux": "PrtScn",
+            "Mac": "Cmd + Shift + 3"
+
+
+        },
+        {
+            "id":24,
+            "comando": "Captura de pantalla de una ventana específica",
+            "Descripcion": "Permite tomar una captura de pantalla de una ventana específica en el dispositivo.",
+            "windows": "Alt + PrtScn",
+            "Linux": "Alt + PrtScn",
+            "Mac": "Cmd + Shift + 4, luego presionar la barra espaciadora y hacer clic en la ventana deseada"   
+
+        },
+        {
+            "id":25,
+            "comando": "Cambiar aplicaciones",
+            "Descripcion": "Permite cambiar rápidamente entre las aplicaciones abiertas en el sistema operativo.",
+            "windows": "Alt + Tab",
+            "Linux": "Alt + Tab",
+            "Mac": "Cmd + Tab"
+
+        },
+        {
+            "id":26,
+            "comando": "Minimizar ventana",
+            "Descripcion": "Permite minimizar la ventana activa, ocultándola de la vista pero manteniéndola en ejecución.",
+            "windows": "Windows + M",
+            "Linux": "Ctrl + Alt + D",
+            "Mac": "Cmd + M"
+
+
+        },
+        {
+            "id":27,
+            "comando": "Maximizar ventana",
+            "Descripcion": "Permite maximizar la ventana activa, ocupando toda la pantalla disponible.",
+            "windows": "Windows + Up Arrow",
+            "Linux": "Ctrl + Super + Up Arrow",
+            "Mac": "Cmd + Control + F"
+
+
+        },
+        {
+            "id":28,
+            "comando": "Bloquear el equipo",
+            "Descripcion": "Permite bloquear el equipo para proteger la privacidad y seguridad.",   
+            "windows": "Windows + L",
+            "Linux": "Ctrl + Alt + L",
+            "Mac": "Control + Shift + Power"
+
+
+        },
+        {
+            "id":29,
+            "comando": "Cerrar sesión",
+            "Descripcion": "Permite cerrar la sesión del usuario actual, cerrando todas las aplicaciones y procesos asociados.",
+            "windows": "Ctrl + Alt + Del, luego seleccionar 'Cerrar sesión'",
+            "Linux": "Ctrl + Alt + Del, luego seleccionar 'Cerrar sesión'",
+            "Mac": "Cmd + Shift + Q"
+
+
+        },
+        {
+            "id":30,
+            "comando": "Busqueda del sistema",
+            "Descripcion": "Permite buscar archivos, carpetas y aplicaciones en el sistema operativo.",
+            "windows": "Windows + S",
+            "Linux": "Super + S",
+            "Mac": "Cmd + Space"
+
+        },
+        {
+            "id":31,
+            "comando": "Abrir el menú de inicio",
+            "Descripcion": "Permite abrir el menú de inicio para acceder a aplicaciones, configuraciones y otras funciones del sistema operativo.",
+            "windows": "Windows",
+            "Linux": "Super",
+            "Mac": "Cmd + Space"
+
+        },
+        {
+            "id":32,
+            "comando": "Abrir el centro de notificaciones",
+            "Descripcion": "Permite abrir el centro de notificaciones para ver y gestionar las notificaciones del sistema operativo.",
+            "windows": "Windows + A",
+            "Linux": "Super + N",
+            "Mac": "Cmd + Option + N"
+
+
+        },
+        {
+            "id":33,
+            "comando": "Mostrar el escritorio",
+            "Descripcion": "Permite mostrar el escritorio, ocultando todas las ventanas abiertas.",
+            "windows": "Windows + D",
+            "Linux": "Ctrl + Alt + D",
+            "Mac": "Cmd + Option + D"
+
+
+        },
+        {
+            "id":34,
+            "comando": "Cambiar el idioma del teclado",
+            "Descripcion": "Permite cambiar el idioma del teclado para adaptarse a diferentes configuraciones regionales.",
+            "windows": "Windows + Space",
+            "Linux": "Super + Space",
+            "Mac": "Cmd + Space"
+
+
+        },
+        {
+            "id":35,
+            "comando": "Abrir el explorador de archivos",
+            "Descripcion": "Permite abrir el explorador de archivos para navegar y gestionar los archivos y carpetas en el sistema operativo.",
+            "windows": "Windows + E",
+            "Linux": "Super + E",
+            "Mac": "Cmd + Shift + F"
+
+
+        },
+        {
+            "id":36,
+            "comando": "configuracion del sistema",
+            "Descripcion": "Permite acceder a la configuración del sistema para personalizar y ajustar las preferencias del sistema operativo.",    
+            "windows": "Windows + I",
+            "Linux": "Super + S",       
+            "Mac": "Cmd + ,"
+
+
+        },
+        {
+            "id":37,
+            "comando": "Panralla completa",
+            "Descripcion": "Permite cambiar la ventana activa a modo de pantalla completa, ocultando la barra de tareas y otros elementos de la interfaz.",
+            "windows": "F11",   
+            "Linux": "F11",
+            "Mac": "Cmd + Control + F"
+
+        },
+        {
+            "id":38,
+            "comando": "Abrir el menú contextual",
+            "Descripcion": "Permite abrir el menú contextual para acceder a opciones adicionales relacionadas con un elemento seleccionado.",
+            "windows": "Shift + F10 o clic derecho",
+            "Linux": "Shift + F10 o clic derecho",
+            "Mac": "Control + clic"
+
+
+        },
+        {
+            "id":39,
+            "comando": " Vista previa",
+            "Descripcion": "Permite obtener una vista previa de un archivo o documento sin abrirlo completamente.",
+            "windows": "Alt + P ",
+            "Linux": "Seleccionar el archivo y presionar la barra espaciadora",
+            "Mac": "Seleccionar el archivo y presionar la barra espaciadora"
+            
+
+
+        },
+        {
+            "id":40,
+            "comando": "Cambiar el tamaño de la ventana",
+            "Descripcion": "Permite cambiar el tamaño de la ventana activa para ajustarla a las necesidades del usuario.",
+            "windows": "Windows + Left Arrow o Windows + Right Arrow",
+            "Linux": "Ctrl + Super + Left Arrow o Ctrl + Super + Right Arrow",
+            "Mac": "Cmd + Control + Left Arrow o Cmd + Control + Right Arrow"
+
+
+
+        },
+        {
+            "id":41,
+            "comando": "forzar cierre de una aplicación",
+            "Descripcion": "Permite forzar el cierre de una aplicación que no responde o está causando problemas en el sistema operativo.",
+            "windows": "Ctrl + Shift + Esc, luego seleccionar la aplicación y hacer clic en 'Finalizar tarea'",
+            "Linux": "Ctrl + Shift + Esc, luego seleccionar la aplicación y hacer clic en 'Finalizar tarea'",
+            "Mac": "Cmd + Option + Esc, luego seleccionar la aplicación y hacer clic en 'Forzar salida'"
+            
+
+
+        },
+        {
+            "id":42,
+            "comando": "Abrir el menú de energía",
+            "Descripcion": "Permite abrir el menú de energía para acceder a opciones como apagar, reiniciar o suspender el dispositivo.",
+            "windows": "Ctrl + Alt + Del, luego seleccionar 'Apagar' o 'Reiniciar'",
+            "Linux": "Ctrl + Alt + Del, luego seleccionar 'Apagar' o 'Reiniciar'",
+            "Mac": "Control + Power, luego seleccionar 'Apagar' o 'Reiniciar'"
+
+
+        },
+        {
+
+            "id":43,
+            "comando": "Abrir el menú de accesibilidad",
+            "Descripcion": "Permite abrir el menú de accesibilidad para acceder a opciones y configuraciones relacionadas con la accesibilidad del sistema operativo.",
+            "windows": "Windows + U",
+            "Linux": "Super + U",
+            "Mac": "Cmd + Option + F5"
+        },
+        {
+            "id":44,
+            "comando": "Abrir el menú de ayuda",
+            "Descripcion": "Permite abrir el menú de ayuda para acceder a recursos y asistencia relacionados con el sistema operativo.",
+            "windows": "F1",
+            "Linux": "F1",
+            "Mac": "Cmd + Shift + ?"
+
+        },
+        {
+            "id":45,
+            "comando":" Invertir colores",
+            "Descripcion":"Permite invertir los colores de la pantalla para mejorar la legibilidad y reducir la fatiga visual.",
+            "windows":"Ctrl + Alt + I", 
+            "Linux":"Ctrl + Alt + I",
+            "Mac":"Cmd + Option + Control + 8"
+
+
+        },
+        {
+
+            "id":46,
+            "comando":"Aumentar el zoom",
+            "Descripcion":"Permite aumentar el nivel de zoom en la pantalla para mejorar la legibilidad y la visibilidad de los elementos.",
+            "windows":"Ctrl + +",
+            "Linux":"Ctrl + +",
+            "Mac":"Cmd + +"
+        },
+        {
+            "id":47,
+            "comando":"Disminuir el zoom",
+            "Descripcion":"Permite disminuir el nivel de zoom en la pantalla para mostrar más contenido y reducir el tamaño de los elementos.",
+            "windows":"Ctrl + -",
+            "Linux":"Ctrl + -",
+            "Mac":"Cmd + -" 
+
+
+        },
+        {
+            "id":48,
+            "comando":"Restablecer el zoom",
+            "Descripcion":"Permite restablecer el nivel de zoom a su valor predeterminado para mostrar el contenido en su tamaño original.",
+            "windows":"Ctrl + 0",
+            "Linux":"Ctrl + 0",
+            "Mac":"Cmd + 0"
+
+
+        },
+        {
+            "id":49,
+            "comando":"Narrador",
+            "Descripcion":"Permite activar o desactivar el narrador para leer en voz alta el contenido de la pantalla.",
+            "windows":"Windows + Ctrl + Enter",
+            "Linux":"Ctrl + Alt + Shift + S",
+            "Mac":"Cmd + F5"        
+
+        },
+        {
+
+            "id":50,
+            "comando":"Lupa",
+            "Descripcion":"Permite activar o desactivar la lupa para ampliar una parte específica de la pantalla.",
+            "windows":"Windows + +",
+            "Linux":"Super + +",
+            "Mac":"Cmd + Option + 8"
+
+        },
+        {
+            "id":51,
+            "comando":"Teclado en pantalla",
+            "Descripcion":"Permite activar o desactivar el teclado en pantalla para ingresar texto utilizando un teclado virtual.",
+            "windows":"Windows + Ctrl + O",
+            "Linux":"Super + Ctrl + O",
+            "Mac":"Cmd + Option + Control + K"
+
+
+        },
+        {
+
+
+            "id":52,
+            "comando":"Modo de alto contraste",
+            "Descripcion":"Permite activar o desactivar el modo de alto contraste para mejorar la legibilidad y la visibilidad de los elementos en la pantalla.",
+            "windows":"Left Alt + Left Shift + Print Screen",
+            "Linux":"Super + U, luego seleccionar 'Alto contraste'",
+            "Mac":"Cmd + Option + Control + 8"
+        },
+        {
+
+            "id":53,
+            "comando":"Modo de lectura",
+            "Descripcion":"Permite activar o desactivar el modo de lectura para mejorar la legibilidad de los artículos y páginas web al eliminar distracciones visuales.",
+            "windows":"Ctrl + Shift + R",
+            "Linux":"Super + R",
+            "Mac":"Cmd + Shift + R"
+        },
+        {
+
+            "id":54,
+            "comando":"Modo de enfoque",
+            "Descripcion":"Permite activar o desactivar el modo de enfoque para reducir las distracciones y mejorar la concentración al ocultar elementos no esenciales en la pantalla.",
+            "windows":"Windows + Ctrl + F",
+            "Linux":"Super + F",
+            "Mac":"Cmd + Control + F"
+        },
+        {
+
+
+            "id":55,
+            "comando":"Modo de pantalla dividida",
+            "Descripcion":"Permite activar o desactivar el modo de pantalla dividida para mostrar dos aplicaciones o ventanas lado a lado en la pantalla.",
+            "windows":"Windows + Left Arrow o Windows + Right Arrow",
+            "Linux":"Ctrl + Super + Left Arrow o Ctrl + Super + Right Arrow",
+            "Mac":"Cmd + Control + Left Arrow o Cmd + Control + Right Arrow"
+        },
+        {
+
+
+            "id":56,
+            "comando":"Modo de presentación",
+            "Descripcion":"Permite activar o desactivar el modo de presentación para mostrar el contenido en una pantalla externa sin distracciones.",
+            "windows":"Windows + P",
+            "Linux":"Super + P",
+            "Mac":"Cmd + F1"
+        },
+        {
+
+
+            "id":57,
+            "comando":"Modo de ahorro de energía",
+            "Descripcion":"Permite activar o desactivar el modo de ahorro de energía para reducir el consumo de energía y prolongar la duración de la batería.",
+            "windows":"Windows + X, luego seleccionar 'Opciones de energía'",
+            "Linux":"Super + S, luego seleccionar 'Ahorro de energía'",
+            "Mac":"Cmd + Option + Power"
+
+        },
+        {
+
+
+            "id":58,
+            "comando":"Modo de suspensión",
+            "Descripcion":"Permite activar o desactivar el modo de suspensión para poner el dispositivo en un estado de bajo consumo de energía mientras no está en uso.",
+            "windows":"Windows + X, luego seleccionar 'Suspender'",
+            "Linux":"Super + S, luego seleccionar 'Suspender'",
+            "Mac":"Cmd + Option + Power"
+        },
+        {
+
+
+            "id":59,
+            "comando":"Modo de hibernación",
+            "Descripcion":"Permite activar o desactivar el modo de hibernación para guardar el estado del sistema en el disco duro y apagar completamente el dispositivo.",
+            "windows":"Windows + X, luego seleccionar 'Hibernar'",
+            "Linux":"Super + S, luego seleccionar 'Hibernar'",
+            "Mac":"Cmd + Option + Power"
+
+
+        },
+        {
+
+
+            "id":60,
+            "comando":"Modo de avión",
+            "Descripcion":"Permite activar o desactivar el modo de avión para deshabilitar todas las conexiones inalámbricas en el dispositivo.",
+            "windows":"Windows + A, luego seleccionar 'Modo de avión'",
+            "Linux":"Super + A, luego seleccionar 'Modo de avión'",
+            "Mac":"Cmd + Option + Control + A"
+
+
+        },
+        {
+
+
+            "id":61,
+            "comando":"Modo de no molestar",
+            "Descripcion":"Permite activar o desactivar el modo de no molestar para silenciar las notificaciones y evitar interrupciones.",
+            "windows":"Windows + A, luego seleccionar 'No molestar'",
+            "Linux":"Super + A, luego seleccionar 'No molestar'",
+            "Mac":"Cmd + Option + Control + D"
+        }
+        
+        
+
+        ],
+        "comandos exclusivos de Mac":[
+            {
+            "id":1,
+            "comando":"Mission Control",
+            "Descripcion":"Permite acceder a Mission Control para ver todas las ventanas abiertas, escritorios y aplicaciones en ejecución.",
+            "Mac":"Control + Up Arrow"
+        },
+        {
+            "id":2,
+            "comando":"Launchpad",
+            "Descripcion":"Permite abrir Launchpad para acceder rápidamente a las aplicaciones instaladas en el sistema operativo.",
+            "Mac":"F4 o Ctrl + Up Arrow"
+        },
+        {
+
+            "id":3,
+            "comando":"Spotlight",
+            "Descripcion":"Permite abrir Spotlight para buscar archivos, aplicaciones y realizar búsquedas en la web.",
+            "Mac":"Cmd + Space"
+        },
+        {
+            "id":4,
+            "comando":"Time Machine",
+            "Descripcion":"Permite acceder a Time Machine para realizar copias de seguridad y restaurar archivos en el sistema operativo.",
+            "Mac":"Cmd + Shift + T"
+        },
+        {
+            "id":5,
+            "comando":"Exposé",
+            "Descripcion":"Permite activar Exposé para mostrar todas las ventanas abiertas y facilitar la navegación entre ellas.",
+            "Mac":"Control + Down Arrow"
+         },
+         {
+            "id":6,
+            "comando":"Búsqueda en Finder",
+            "Descripcion":"Permite realizar búsquedas de archivos y carpetas dentro del Finder.",
+            "Mac":"Cmd + F"
+
+
+         },
+         {
+            "id":7,
+            "comando":"Visor de caracteres y emojis",
+            "Descripcion":"Permite abrir el visor de caracteres y emojis para seleccionar y insertar símbolos y emoticonos en el documento.",
+            "Mac":"Cmd + Ctrl + Space"
+         },
+         {
+            "id":8,
+            "comando": " Cambiar entre ventanas de la misma aplicación",
+            "Descripcion": "Permite cambiar rápidamente entre las ventanas abiertas de la misma aplicación.",
+            "Mac": "Cmd + ` (tecla de tilde)"
+
+         },
+         {
+            "id":9,
+            "comando": "Ocultar otras aplicaciones",
+            "Descripcion": "Permite ocultar todas las aplicaciones excepto la ventana activa para reducir el desorden visual.",
+            "Mac": "Cmd + Option + H"
+
+
+
+
+         },
+         {
+            "id":10,
+            "comando": "Minimizar todas las ventanas de la app",
+            "Descripcion": "Permite minimizar todas las ventanas de la aplicación activa.",
+            "Mac": "Cmd + M"
+
+
+         },
+        {
+            "id":11,
+            "comando": "Mostrar u ocultar el Dock",
+            "Descripcion": "Permite mostrar o ocultar el Dock en la pantalla.",
+            "Mac": "Cmd + Option + D"
+        },
+        {
+            "id":12,
+            "comando": "Mostrar u ocultar la barra de menús",
+            "Descripcion": "Permite mostrar o ocultar la barra de menús en la parte superior de la pantalla.",
+            "Mac": "Cmd + Control + F"
+        },
+        {
+
+            "id":13,
+            "comando": "Mostrar u ocultar el Launchpad",
+            "Descripcion": "Permite mostrar o ocultar el Launchpad para acceder rápidamente a las aplicaciones instaladas.",
+            "Mac": "F4 o Ctrl + Up Arrow"
+
+        },
+        {
+
+            "id":14,
+            "comando": "Mostrar u ocultar el Mission Control",
+            "Descripcion": "Permite mostrar o ocultar Mission Control para ver todas las ventanas abiertas, escritorios y aplicaciones en ejecución.",
+            "Mac": "Control + Up Arrow"
+
+        },
+        {
+
+            
+            "id":15,
+            "comando": "Activar Siri",
+            "Descripcion": "Permite activar Siri para realizar consultas y comandos de voz.",
+            "Mac": "Cmd + Shift + A"
+
+        },
+        {
+            "id":16,
+            "comando": "AirDrop",
+            "Descripcion": "Permite compartir archivos de forma inalámbrica con otros dispositivos Apple cercanos",
+            "Mac": "Cmd + Shift + R"
+
+
+
+        },
+        {
+            "id":17,
+            "comando": "Handoff",
+            "Descripcion": "Permite continuar una tarea o actividad en otro dispositivo Apple cercano.",
+            "Mac": "Cmd + Tab para cambiar entre dispositivos compatibles con Handoff"
+
+        },
+        {
+
+            "id":18,
+            "comando": "Continuidad de llamadas",
+            "Descripcion": "Permite realizar y recibir llamadas telefónicas en el Mac utilizando el iPhone conectado.",
+            "Mac": "Cmd + Shift + C para activar la función de continuidad de llamadas"
+        },
+        {
+            "id":19,
+            "comando": "Continuidad de mensajes",
+            "Descripcion": "Permite enviar y recibir mensajes de texto en el Mac utilizando el iPhone conectado.",
+            "Mac": "Cmd + Shift + M para activar la función de continuidad de mensajes"
+
+
+        },
+        {
+            "id":20,
+            "comando": "Continuidad de portapapeles",
+            "Descripcion": "Permite copiar y pegar contenido entre dispositivos Apple cercanos utilizando el portapapeles compartido.",
+            "Mac": "Cmd + C para copiar en un dispositivo y Cmd + V para pegar en otro dispositivo compatible con continuidad de portapapeles"
+
+        },
+        {
+            "id":21,
+            "comando": "Continuidad de Handoff",
+            "Descripcion": "Permite continuar una tarea o actividad en otro dispositivo Apple cercano utilizando Handoff.",
+            "Mac": "Cmd + Tab para cambiar entre dispositivos compatibles con Handoff"
+        },
+        {
+            "id":22,
+            "comando": "Continuidad de AirPlay",
+            "Descripcion": "Permite transmitir contenido de forma inalámbrica desde el Mac a otros dispositivos Apple compatibles con AirPlay.",
+            "Mac": "Cmd + Shift + A para activar la función de AirPlay"
+
+
+        },
+        {
+
+            "id":23,
+            "comando": "Continuidad de Sidecar",
+            "Descripcion": "Permite utilizar un iPad como pantalla secundaria para el Mac utilizando la función de Sidecar.",
+            "Mac": "Cmd + Shift + S para activar la función de Sidecar"
+        },
+        {
+
+            "id":24,
+            "comando": "Continuidad de Universal Control",
+            "Descripcion": "Permite controlar varios dispositivos Apple cercanos utilizando un solo teclado y mouse con la función de Universal Control.",
+            "Mac": "Cmd + Tab para cambiar entre dispositivos compatibles con Universal Control"
+        },
+        {
+
+            "id":25,
+            "comando": "Continuidad de AirDrop",
+            "Descripcion": "Permite compartir archivos de forma inalámbrica con otros dispositivos Apple cercanos utilizando AirDrop.",
+            "Mac": "Cmd + Shift + R para activar la función de AirDrop"
+        },
+        {
+
+           
+            "id":26,
+            "comando": "Vista rápida y presentación",
+            "Descripcion": "Permite activar la función de vista rápida para obtener una vista previa de archivos y documentos sin abrirlos completamente, y la función de presentación para mostrar el contenido en una pantalla externa.",
+            "Mac": "Seleccionar el archivo y presionar la barra espaciadora para vista"
+
+        },
+        {
+          
+            "id":27,
+            "comando": "iCloud Drive",
+            "Descripcion": "Permite acceder y gestionar archivos almacenados en iCloud Drive, el servicio de almacenamiento en la nube de Apple.",
+            "Mac": "Cmd + Shift + I para abrir iCloud Drive en el Finder"  
+
+
+        },
+        {
+            "id":28,
+            "comando": "Continuidad de Apple Pencil",
+            "Descripcion": "Permite utilizar un Apple Pencil para dibujar, escribir y realizar anotaciones en el Mac utilizando la función de continuidad de Apple Pencil.",
+            "Mac": "Cmd + Shift + P para activar la función de continuidad de Apple Pencil"
+
+
+
+        },
+        {
+
+            "id":29,
+            "comando": "Continuidad de Apple Watch",
+            "Descripcion": "Permite recibir notificaciones y realizar acciones en el Mac utilizando un Apple Watch conectado.",
+            "Mac": "Cmd + Shift + W para activar la función de continuidad de Apple Watch"
+
+
+        },
+        {
+
+            "id":30,
+            "comando": "Continuidad de Apple TV",
+            "Descripcion": "Permite controlar un Apple TV desde el Mac utilizando la función de continuidad de Apple TV.",
+            "Mac": "Cmd + Shift + T para activar la función de continuidad de Apple TV"
+        },
+        {
+
+
+            "id":31,
+            "comando": "Continuidad de Apple Music",
+            "Descripcion": "Permite controlar la reproducción de música en el Mac utilizando un dispositivo Apple conectado con la función de continuidad de Apple Music.",
+            "Mac": "Cmd + Shift + M para activar la función de continuidad de Apple Music"
+        },
+        {
+
+            "id":32,
+            "comando": "Conectarse a un servidor",
+            "Descripcion": "Permite conectarse a un servidor remoto utilizando la función de continuidad.",
+            "Mac": "Cmd + Shift + C para activar la función de conectividad con servidor"
+        },
+        {
+
+            "id":33,
+            "comando": "Crear carpeta inteligente",
+            "Descripcion": "Permite crear una carpeta inteligente que organiza automáticamente los archivos según criterios específicos, como tipo de archivo, fecha de creación o etiquetas.",
+            "Mac": "Cmd + Shift + N para crear una nueva carpeta inteligente en el Finder"
+        },
+        {
+
+            
+            "id":34,
+            "comando": "Cambiar vistas del Finder",
+            "Descripcion": "Permite cambiar entre diferentes vistas en el Finder, como vista de iconos, vista de lista, vista de columnas y vista de galería.",
+            "Mac": "Cmd + 1 para vista de iconos, Cmd + 2 para vista de lista, Cmd + 3 para vista de columnas, Cmd + 4 para vista de galería"
+        },
+        {
+ 
+            "id":35,
+            "comando": "Mostrar definición de una palabra", 
+            "Descripcion": "Permite mostrar la definición de una palabra seleccionada utilizando el diccionario integrado de macOS.",
+            "Mac": "Cmd + Ctrl + D para mostrar la definición de una palabra seleccionada"
+
+        },
+        {
+
+             
+            "id":36,
+            "comando": "Navegación estilo Unix",    
+            "Descripcion": "Permite navegar por el sistema de archivos utilizando comandos de estilo Unix en la terminal de macOS.",
+            "Mac": "Abrir la Terminal y utilizar comandos como 'cd', 'ls', 'mkdir', 'rm', entre otros, para navegar y gestionar archivos y directorios en el sistema de archivos de macOS"  
+
+        },
+        {
+         
+            "id":37,
+            "comando": "Navegación en documentos y páginas web",
+            "Descripcion": "Permite navegar rápidamente a través de documentos y páginas web utilizando atajos de teclado para avanzar o retroceder páginas, ir al inicio o al final del documento.",
+            "Mac": "Cmd + Flecha derecha para ir al final, Cmd + Flecha izquierda para ir al inicio, Cmd + Flecha abajo para avanzar página, Cmd + Flecha arriba para retroceder página"        
+
+
+
+        },
+        {
+          
+            "id":38,
+            "comando": "Abrir configuración de red",    
+            "Descripcion": "Permite abrir la configuración de red para gestionar las conexiones de red y configurar opciones relacionadas con la conectividad.",
+            "Mac": "Cmd + Shift + N para abrir la configuración de red en Preferencias del Sistema"
+
+
+        }
+        ],
+        "comandos exclusivos de Linux":[
+            {
+                "id":1,
+                "comando":"Terminal",
+                "Descripcion":"Permite abrir la terminal para ejecutar comandos y gestionar el sistema operativo utilizando la línea de comandos.",
+                "Linux":"Ctrl + Alt + T"
+            },
+            {
+                "id":2,
+                "comando":"Cambiar entre escritorios virtuales",
+                "Descripcion":"Permite cambiar rápidamente entre los escritorios virtuales para organizar las ventanas y aplicaciones abiertas.",
+                "Linux":"Ctrl + Alt + Flecha izquierda o Ctrl + Alt + Flecha derecha"
+            },
+            {
+                "id":3,
+                "comando":"Mostrar el escritorio",
+                "Descripcion":"Permite mostrar el escritorio, ocultando todas las ventanas abiertas.",
+                "Linux":"Ctrl + Alt + D"
+            },
+            {
+                "id":4,
+                "comando":"Abrir el menú de aplicaciones",
+                "Descripcion":"Permite abrir el menú de aplicaciones para acceder a las aplicaciones instaladas en el sistema operativo.",
+                "Linux":"Super (tecla de Windows) o Ctrl + Esc"
+            },
+            
+            
+            {
+                "id":5,
+                "comando":"Abrir el menú de configuración",
+                "Descripcion":"Permite abrir el menú de configuración para personalizar y ajustar las preferencias del sistema operativo.",
+                "Linux":"Super + S"
+            },
+            {
+                "id":6,
+                "comando":"Abrir el menú de energía",
+                "Descripcion":"Permite abrir el menú de energía para acceder a opciones como apagar, reiniciar o suspender el dispositivo.",
+                "Linux":"Ctrl + Alt + Del, luego seleccionar 'Apagar' o 'Reiniciar'"
+            },
+            {
+
+                "id":7,
+                "comando":"Abrir el menú de accesibilidad",
+                "Descripcion":"Permite abrir el menú de accesibilidad para acceder a opciones y configuraciones relacionadas con la accesibilidad del sistema operativo.",
+                "Linux":"Super + U"
+            },
+            {
+
+                "id":8,
+                "comando":"Abrir el menú de ayuda",
+                "Descripcion":"Permite abrir el menú de ayuda para acceder a recursos y asistencia relacionados con el sistema operativo.",
+                "Linux":"F1"
+            },
+
+            {
+                "id":9,
+                "comando":"Cambiar el fondo de pantalla",
+                "Descripcion":"Permite cambiar el fondo de pantalla del escritorio para personalizar la apariencia del sistema operativo.",
+                "Linux":"Super + D, luego hacer clic derecho en el escritorio y seleccionar 'Cambiar fondo de pantalla'"
+
+            },
+            {
+                "id":10,
+                "comando":"Cambiar el tema del sistema",
+                "Descripcion":"Permite cambiar el tema del sistema para personalizar la apariencia de las ventanas, iconos y otros elementos de la interfaz.",
+                "Linux":"Super + S, luego seleccionar 'Apariencia' o 'Temas' en la configuración del sistema"
+
+
+
+            },
+            {
+
+                "id":11,
+                "comando":"Cambiar el idioma del sistema",
+                "Descripcion":"Permite cambiar el idioma del sistema para adaptar la interfaz y las opciones a diferentes configuraciones regionales.",
+                "Linux":"Super + S, luego seleccionar 'Región e idioma' en la configuración del sistema"
+
+            },
+            {
+                "id":12,
+                "comando":"Cambiar el tamaño de los iconos del escritorio",
+                "Descripcion":"Permite cambiar el tamaño de los iconos del escritorio para adaptarlos a las preferencias del usuario.",
+                "Linux":"Super + D, luego hacer clic derecho en el escritorio y seleccionar 'Cambiar tamaño de los iconos'"
+            },
+            {
+
+                "id":13,
+                "comando":"Cambiar el tamaño de las ventanas",
+                "Descripcion":"Permite cambiar el tamaño de las ventanas abiertas para ajustarlas a las necesidades del usuario.",
+                "Linux":"Super + Left Arrow o Super + Right Arrow para cambiar el tamaño de las ventanas a la mitad izquierda o derecha de la pantalla, respectivamente"
+            },
+            {
+
+                "id":14,
+                "comando":"Cambiar el enfoque de las ventanas",
+                "Descripcion":"Permite cambiar el enfoque de las ventanas abiertas para seleccionar la ventana activa y trabajar con ella.",
+                "Linux":"Alt + Tab para cambiar entre las ventanas abiertas, o Super + Tab para cambiar entre las aplicaciones abiertas"
+
+            },
+            {
+
+                "id":15,
+                "comando":"Cambiar el espacio de trabajo",
+                "Descripcion":"Permite cambiar entre los diferentes espacios de trabajo para organizar las ventanas y aplicaciones abiertas.",
+                "Linux":"Ctrl + Alt + Flecha arriba o Ctrl + Alt + Flecha abajo para cambiar entre los espacios de trabajo"
+            },
+            {
+                "id":16,
+                "comando":"Cambiar el modo de ventana",
+                "Descripcion":"Permite cambiar el modo de ventana entre maximizado, minimizado y restaurado para ajustar la visualización de las ventanas abiertas.",
+                "Linux":"Super + Up Arrow para maximizar, Super + Down Arrow para minimizar o restaurar la ventana activa"
+            },
+            {
+                "id":17,
+                "comando":"Cambiar el enfoque de las ventanas",
+                "Descripcion":"Permite cambiar el enfoque de las ventanas abiertas para seleccionar la ventana activa y trabajar con ella.",
+                "Linux":"Alt + Tab para cambiar entre las ventanas abiertas, o Super + Tab para cambiar entre las aplicaciones abiertas"
+
+            },
+            {
+                "id":18,
+                "comando":"3D View",
+                "Descripcion":"Permite ver los elementos del sistema en tres dimensiones.",
+                "Linux":"Super + 3 para abrir la vista 3D"
+            },
+            {
+                "id":19,
+                "comando":"expose view ",
+                "Descripcion":"Permite ver todas las ventanas abiertas en una vista expuesta para facilitar la navegación.",
+                "Linux":"Super + D para mostrar todas las ventanas, o Super + Tab para cambiar entre las aplicaciones abiertas"
+            },
+            {
+                "id":20,
+                "comando":"Launchpad",
+                "Descripcion":"Permite acceder a todas las aplicaciones instaladas en el sistema.",
+                "Linux":"Super + L para abrir el Launchpad"
+            }
+        ],
+        "comandos exclusivos de Windows":[
+            {
+            
+                "id":1,
+                "comando":"Escritura por voz",
+                "Descripcion":"Permite activar la función de escritura por voz para dictar texto en lugar de escribirlo manualmente.",
+                "windows":"Windows + H"
+            },
+            {
+                "id":2,
+                "comando":"Abrir el centro de actividades",
+                "Descripcion":"Permite abrir el centro de actividades para ver y gestionar las notificaciones del sistema operativo.",
+                "windows":"Windows + A"
+            },
+            {
+                "id":3,
+                "comando":"Mostrar el escritorio",
+                "Descripcion":"Permite mostrar el escritorio, ocultando todas las ventanas abiertas.",
+                "windows":"Windows + D"
+            },
+            {
+                 
+                "id":4, 
+                "comando":"Conectar dispositivos inalámbricos",
+                "Descripcion":"Permite conectar dispositivos inalámbricos, como auriculares Bluetooth o impresoras, al sistema operativo.",
+                "windows":"Windows + K"
+            },
+            {
+                "id":5,
+                "comando":"Bloquear la pantalla",
+                "Descripcion":"Permite bloquear la pantalla del dispositivo para proteger la privacidad y seguridad.",
+                "windows":"Windows + L"
+             },
+             {
+                "id":6,
+                "comando":"Abrir el administrador de tareas",
+                "Descripcion":"Permite abrir el administrador de tareas para gestionar los procesos y aplicaciones en ejecución.",
+                "windows":"Ctrl + Shift + Esc"
+             },
+             {
+                 "id":7,
+                 "comando":"Información del sistema",
+                 "Descripcion":"Permite acceder a la información del sistema, como el hardware, software y configuración.",
+                 "windows":"Alt + Enter"
+              },
+              {
+                  "id":8,
+                  "comando":"Captura de pantalla",
+                  "Descripcion":"Permite tomar una captura de pantalla del área visible en el dispositivo.",
+                  "windows":"PrtScn"
+              },
+              {
+                "id":9,
+                "comando":"Opciones de proyección de pantalla",
+                "Descripcion":"Permite acceder a las opciones de proyección de pantalla para configurar la salida gráfica.",
+                "windows":"Windows + P"
+              },
+              {
+
+                
+
+                "id":10,
+                "comando":"Bloquear orientación de pantalla",
+                "Descripcion":"Permite bloquear la orientación de la pantalla para evitar cambios no deseados al rotar el dispositivo.",
+                "windows":"Windows + O"
+
+                 
+              },
+              {
+                "id":11,
+                "comando":"Crear un escritorio virtual",
+                "Descripcion":"Permite crear un escritorio virtual para organizar y separar las aplicaciones en ejecución.",
+                "windows":"Windows + Tab"
+              },
+              {
+
+
+                "id":12,
+                "comando":"Cambiar entre escritorios virtuales",
+                "Descripcion":"Permite cambiar rápidamente entre los escritorios virtuales para organizar las ventanas y aplicaciones abiertas.",
+                "windows":"Windows + Ctrl + Flecha izquierda o Windows + Ctrl + Flecha derecha"
+              },
+
+              {
+
+                "id":13,
+                "comando":"Cerrar el escritorio virtual actual",
+                "Descripcion":"Permite cerrar el escritorio virtual actual y regresar al escritorio principal.",
+                "windows":"Windows + Ctrl + F4"
+              },
+              {
+
+           
+                "id":14,
+                "comando":"Grabar pantalla",
+                "Descripcion":"Permite iniciar o detener la grabación de pantalla para capturar el contenido visual del dispositivo.",
+                "windows":"Windows + G para abrir la barra de juegos, luego seleccionar 'Iniciar grabación' o 'Detener grabación'"
+              },
+              {
+                
+                "id":15,
+                "comando":"Abrir aplicaciones ancladas a la barra de tareas",
+                "Descripcion":"Permite abrir rápidamente las aplicaciones ancladas a la barra de tareas utilizando atajos de teclado.", 
+                "windows":"Windows + número (donde el número corresponde a la posición de la aplicación en la barra de tareas, por ejemplo, Windows + 1 para la primera aplicación anclada, Windows + 2 para la segunda, etc.)" 
+
+
+              },
+              {
+           
+                "id":16,
+                "comando":"Pantalla de seguridad",
+                "Descripcion":"Permite acceder a la pantalla de seguridad para bloquear el dispositivo, cambiar de usuario o cerrar sesión.",
+                "windows":"Ctrl + Alt + Del"
+
+
+              },
+              {
+                
+                "id":17,
+                "comando":"Seleccionar la barra de direcciones",
+                "Descripcion":"Permite seleccionar rápidamente la barra de direcciones en el explorador de archivos para ingresar una ruta o realizar una búsqueda.",
+                "windows":"Alt + D"
+
+
+              },
+
+              {
+                
+                "id":18,
+                "comando":"Mostrar u ocultar el panel de vista previa",
+                "Descripcion":"Permite mostrar u ocultar el panel de vista previa en el explorador de archivos para obtener una vista previa de los archivos seleccionados.",
+                "windows":"Alt + P"
+
+
+
+              },
+              {
+                
+                "id":19,
+                "comando":"Expandir todas las carpetas",
+                "Descripcion":"Permite expandir todas las carpetas en el explorador de archivos para mostrar su contenido sin necesidad de hacer clic en cada carpeta individualmente.",
+                "windows":"Ctrl + Shift + E"
+
+
+
+              },
+              {
+
+             
+                "id":20,
+                "comando":"Activar el Narrador",
+                "Descripcion":"Permite activar el Narrador para leer en voz alta el contenido de la pantalla y proporcionar asistencia a usuarios con discapacidades visuales.",
+                "windows":"Windows + Ctrl + Enter"
+
+              },
+              {
+                
+                "id":21,
+                "comando":"Activar filtros de color",
+                "Descripcion":"Permite activar los filtros de color para mejorar la visibilidad y legibilidad de la pantalla para usuarios con discapacidades visuales.",
+                "windows":"Windows + Ctrl + C"
+
+
+              }
+              ] 
+
+    }
+}
