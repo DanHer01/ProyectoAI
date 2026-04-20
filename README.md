@@ -48,7 +48,17 @@ Ollama es necesario para ejecutar los modelos de IA localmente.
 
 ### Configurar el proyecto
 
-1. Clona o descarga este repositorio.
+1. Clona o descarga este repositorio:
+   - **Clonar con Git**: Si tienes Git instalado, abre una terminal y ejecuta:
+     ```bash
+     git clone https://github.com/DanHer01/ProyectoAI
+     cd ProyectoAI
+     ```
+   - **Descargar como ZIP**: 
+     - Ve a la página del repositorio en GitHub.
+     - Haz clic en "Code" > "Download ZIP".
+     - Elige una carpeta en tu computadora donde extraer el archivo (por ejemplo, crea una carpeta llamada "ProyectoAI" en tu escritorio o documentos).
+     - Extrae el contenido del archivo ZIP en esa carpeta.
 2. Abre una terminal en la carpeta del proyecto.
 3. Crea un entorno virtual (opcional, pero recomendado):
 
@@ -75,7 +85,7 @@ Ollama es necesario para ejecutar los modelos de IA localmente.
    ollama serve
    ```
 
-2. Ejecuta la aplicación:
+2. Ejecuta la aplicación desde una terminal (cmd, bash o PowerShell) en el directorio del proyecto:
 
    ```bash
    python main.py
