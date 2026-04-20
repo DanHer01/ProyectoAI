@@ -22,16 +22,44 @@ Una interfaz gráfica ligera en `PyQt5` para usar `Ollama` desde el escritorio. 
 
 ## 🚀 Instalación
 
+### Instalar Python
+
+Este proyecto requiere Python 3.8 o superior. Si no tienes Python instalado, sigue estos pasos:
+
+1. Ve al sitio oficial de Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Descarga la versión más reciente de Python 3.x (recomendado 3.11).
+3. Ejecuta el instalador:
+   - **Windows**: Durante la instalación, marca la opción "Add Python to PATH" para facilitar el uso desde la línea de comandos.
+   - **macOS**: Usa Homebrew (`brew install python`) o descarga el instalador desde el sitio.
+   - **Linux**: Usa el gestor de paquetes de tu distribución (ej. `sudo apt install python3` en Ubuntu).
+4. Verifica la instalación abriendo una terminal y ejecutando `python --version` o `python3 --version`.
+
+### Instalar Ollama
+
+Ollama es necesario para ejecutar los modelos de IA localmente.
+
+1. Ve al sitio oficial de Ollama: [https://ollama.com/download](https://ollama.com/download)
+2. Descarga e instala la versión correspondiente a tu sistema operativo (Windows, macOS, Linux).
+3. Después de la instalación, inicia el servidor de Ollama ejecutando en una terminal:
+   ```bash
+   ollama serve
+   ```
+   Esto iniciará Ollama en `http://localhost:11434`.
+
+### Configurar el proyecto
+
 1. Clona o descarga este repositorio.
 2. Abre una terminal en la carpeta del proyecto.
 3. Crea un entorno virtual (opcional, pero recomendado):
 
    ```bash
    python -m venv venv
-   source venv/Scripts/activate   # Windows
+   source venv/Scripts/activate   # Windows (en cmd o bash)
    # o
    source venv/bin/activate       # macOS / Linux
    ```
+
+   Nota: En Windows con PowerShell, usa `venv\Scripts\Activate.ps1` en lugar de `source`.
 
 4. Instala las dependencias:
 
